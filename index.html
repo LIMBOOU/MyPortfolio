@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artjoms Baranovs - Personīgā Portfolio</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="./images/NaviLogo.webp">
+</head>
+<body>
+    
+    <!-- ========== GALVENE / NAVIGĀCIJA ========== -->
+    <header class="navbar-section">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#home">
+                    <span class="brand-name">AB</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#home">Sākums</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">Par Mani</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#skills">Prasmes</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#experience">Pieredze</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#footer">Kontakti</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ========== SEKCIJA 1: VARONIS / IEVADS ========== -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-12 mb-4 mb-lg-0" data-aos="fade-right">
+                    <h1 class="hero-title">Sveiki, es esmu Artjoms</h1>
+                    <p class="hero-subtitle">10. klases skolēns</p>
+                    <p class="hero-description">
+                        Es mācos salaspilī, 1. vidusskolā tehnoloģijas novirzienā. 
+                        Veidoju skaistus, atsaucīgus un lietotājam draudzīgus tīmekļa risinājumus. 
+                        Ar pieredzi mūsdienu tehnoloģijās un dizaina aizrautību, es idejas pārvēršu realitātē.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#experience" class="btn btn-primary btn-lg">Skatīt Manu Darbu</a>
+                        <a href="#footer" class="btn btn-outline-primary btn-lg">Sazinieties ar Mani</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12" data-aos="fade-left">
+                    <img src="images/CatWithTng.gif" alt="Artjoms Baranovs" class="hero-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== SEKCIJA 2: PAR MANI ========== -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Par Mani</h2>
+            <div class="row">
+                <div class="col-lg-8 mx-auto" data-aos="fade-up">
+                    <p class="about-text">
+                        Es interesējos par tīmekļa izstrādi un jau vairāk nekā 5 gadus mācos un veidoju dažādus digitālus projektus.
+                        Man patīk veidot ērtus un saprotamus interfeisus, kā arī strādāt ar sistēmām, kas darbojas fonā un palīdz risināt reālas problēmas.
+                        Mana interese par tehnoloģijām sākās no ziņkāres par to, kā darbojas internets. 
+                        Ar laiku tas pārvērtās par vēlmi apgūt programmēšanu un radīt kvalitatīvus digitālus risinājumus.
+                        Es cenšos pastāvīgi mācīties, rakstīt kārtīgu kodu un domāt par lietotāju ērtībām.
+                    </p>
+                    <p class="about-text">
+                        Brīvajā laikā man patīk spēlēt datorspēles, rakties datorā, lasīt par dažādiem iespējām izmantot datoru,
+                        klausīties mūziku un arī lasīt par psoholoģiju, iedziļināties tā, tomēr, savu dzīvi es plānoju izstrādāt apkārt datoriem.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== SEKCIJA 3: PRASMES UN INTERESES ========== -->
+<section id="skills" class="skills-section">
+    <div class="container">
+        <h2 class="section-title" data-aos="fade-up">Prasmes un Intereses</h2>
+        <div class="row g-4">
+            <!-- Prasme 1 -->
+            <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="bi bi-code-slash"></i>
+                    </div>
+                    <h3 class="skill-title">Tīmekļa Izstrāde</h3>
+                    <p class="skill-description">
+                        HTML5, CSS3, JavaScript, Python, SQL, Docker, n8n, API
+                    </p>
+                </div>
+            </div>
+
+            <!-- Prasme 2 -->
+            <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">   
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="bi bi-spotify"></i>
+                    </div>
+                    <h3 class="skill-title">Mūzika</h3>     
+                    <p class="skill-description">
+                        Man patīk klausīties mūziku, un es klausos dažādus žanrus.
+                        Breakcore, incelcore, alternative, un daudz-daudz citu.
+                        <br/>
+                        220.000 mintūtes par 2025 gadu.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Prasme 3 -->
+            <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="bi bi-steam"></i>
+                    </div>
+                    <h3 class="skill-title">Datorspēles</h3>
+                    <p class="skill-description">
+                        Es pavadu daudz laika spelejot datorspēles. Tas lauj man atpusties un pavadīt laiku ar labāko draugu.
+                        <br/>
+                        2000+ stundas(120.000 min) par 2025 gadu.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Prasme 4 -->
+            <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="400">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="bi bi-tools"></i>
+                    </div>
+                    <h3 class="skill-title">Rīki & Darba Plūsma</h3>
+                    <p class="skill-description">
+                        Git, GitHub, Docker, VS Code, Terminalis, pyCharm, n8n workflow
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- ========== SEKCIJA 4: PIEREDZE / PROJEKTI ========== -->
+    <section id="experience" class="experience-section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Nesen Pabeigti Projekti</h2>
+            <div class="row g-4">
+                <!-- Projekts 1 -->
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="images/PortfolioView.png" alt="E-Komercijas Platforma">
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Šī mājaslapa</h3>
+                            <p class="project-description">
+                                Liels darbs par mani.
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">HTML</span>
+                                <span class="tag">CSS</span>
+                                <span class="tag">JavaScript</span>
+                            </div>
+                            <a href="https://limboou.github.io/Portfolio/" class="project-link">Skatīt Projektu <i class="bi bi-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projekts 2 -->
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="images/Work2.png" alt="Uzdevumu Pārvaldības Lietotne">
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Mākslīgā intelekta apmācība Dota 2 "drafta" analīzei</h3>
+                            <p class="project-description">
+                                Visaptverošs Dota 2 analizators ar atbalstu tiešsaistes analīzei, izmantojot ekrāna lasīšanu vai manuālu ievadi, un pašatjauninošu datubāzi.
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">Python</span>
+                                <span class="tag">MySQL</span>
+                                <span class="tag">API</span>
+                                <span class="tag">requests</span>
+                            </div>
+                            <a href="#" class="project-link">Skatīt Projektu <i class="bi bi-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projekts 3 -->
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="images/Work3.png" alt="Analītikas Panelis">
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">.mp3 to Spotify converter</h3>
+                            <p class="project-description">
+                                Lietotne ar vienkāršu un atsaucīgu ui, kas ļauj konvertēt dziesmas no mp3 tieši uz Spotify.
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">SpotifyOAuth</span>
+                                <span class="tag">Python</span>
+                                <span class="tag">Spotipy</span>
+                            </div>
+                            <a href="#" class="project-link">Skatīt Projektu <i class="bi bi-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== KĀJENE / KONTAKTI ========== -->
+    <footer id="footer" class="footer-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h2 class="footer-title" data-aos="fade-up">Mācīsīmies kopā</h2>
+                    <p class="footer-description" data-aos="fade-up">
+                        Vai jums ir jautājumi? Droši uzdodiet tos!
+                    </p>
+                    <a href="mailto:ab339273@gmail.com" class="btn btn-primary btn-lg mb-5" data-aos="fade-up">
+                        Sūtiet man E-pastu
+                    </a>
+                </div>
+            </div>
+
+            <!-- Sociālo Mediju Saites -->
+            <div class="social-links" data-aos="fade-up">
+                <a href="https://github.com/LIMBOOU" class="social-icon" title="GitHub">
+                    <i class="bi bi-github"></i>
+                </a>
+                <a href="https://steamcommunity.com/id/limboou/" class="social-icon" title="Steam">
+                    <i class="bi bi-steam"></i>
+                </a>
+                <a href="https://open.spotify.com/user/xv9gaeudzjhn1n9jqritkicey" class="social-icon" title="Spotify">
+                    <i class="bi bi-spotify"></i>
+                </a>
+            </div>
+
+            <!-- Autortiesības -->
+            <div class="copyright" data-aos="fade-up">
+                <p>&copy; 2026 Artjoms Baranovs. Visas tiesības paturētas.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- AOS Animation JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <!-- Custom JS -->
+    <script>
+        // Inicializēju AOS (Animate On Scroll)
+        AOS.init({
+            duration: 1000,
+            easing: 'ease-in-out',
+            once: true
+        });
+
+        // Gludas ritināšanas navigācijas saitēm
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>

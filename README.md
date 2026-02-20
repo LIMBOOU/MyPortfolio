@@ -146,5 +146,6 @@ Brīvi izmantojama un modificējama personīgiem vai komerciāliem projektiem.
 
 
 ```
-README.md was wroted by claude
+README.md was redacted by claude
 ```
+

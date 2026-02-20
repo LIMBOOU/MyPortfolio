@@ -20,8 +20,11 @@ portfolio/
 ├── index.html          # Galvenais HTML fails
 ├── style.css           # Pielāgots CSS fails
 ├── images/
-│   ├── profile.jpg     # Profila attēls
-│   └── project-1.jpg   # Projektu attēli
+│   |── CatWithTng.gif  # Profila gifs
+│   |── NaviLogo.webp   # Favicon
+│   |── PortfolioView.png  # Projektu attēli
+│   |── Work2.png   # Projektu attēli 
+│   └── Work3.png   # Projektu attēli
 └── README.md           # Šis fails
 ```
 
@@ -136,5 +139,6 @@ Brīvi izmantojama un modificējama personīgiem vai komerciāliem projektiem.
 - Pievienojiet vairāk projektu, kad tos pabeigšat
 
 ---
+
 
 **Gatavs parādīt savu portfolio? Lai veicas pielāgošanā! 🎉**
